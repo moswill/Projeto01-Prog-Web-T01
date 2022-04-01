@@ -1,3 +1,6 @@
+body {
+    font-family: 'Noto Serif', serif;
+}
 section {
     width: 70%;
     border: 2px solid rgba(204, 204, 204, 0.5);
@@ -10,8 +13,14 @@ img {
     width: 400px;
 }
 
+.img {
+    display: flex;
+    align-items: center;
+}
+
 .title-open {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .dict {
@@ -24,11 +33,9 @@ img {
 
 .title {
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .text {
-    display: table-cell;
     margin-left: 50px;
-    vertical-align: middle;
 }
